@@ -4,9 +4,12 @@
 }
 h1{
     font-family:'Georgia';
+    font-size: 60px ;
+    text-align: center;
+    text-shadow: rgb(226, 43, 43);
 }
 body{
-    background-color: rgb(223, 145, 199);
+    background-color: #e192e7;
     /*background-image: url(../img/gif.gif);*/
 }
 header{
@@ -17,7 +20,7 @@ header{
     width: 30px;
 }
 .header-social-media{
-    background-color: #a31e9d;
+    background-color: #f097edd2;
 }
 .header-content{
     background-image: url(../img/gif.gif);
@@ -33,17 +36,17 @@ header{
     top:0;
 }
 .unab{
-    width: 20%;
+    width: 0%;
 }
 .titulo{
-    width: 80%;
+    width: 100%;
     padding-top: 25px;
 }
 .header-content{
     display: flex;
 }
 .navigation{
-    background-color: #e338e9;
+    background-color: #964b9c;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -53,7 +56,7 @@ main{
 }
 footer{
     margin: 5px;
-    background-color: rgb(246, 240, 226);
+    background-color: #d67add;
 }
 .menu{
     width:100%;
@@ -73,8 +76,9 @@ footer{
     font-family: 'titillium-web';
 }
 .menu a:hover{
-    background-color: #964b9c;
-    color: rgba(167, 47, 137, 0.342);
+    background-color: #d67add;
+    color: rgba(179, 16, 138, 0.575);
+    color: white;
 }
 .menu ul li ul{
     display: none;
@@ -83,17 +87,19 @@ footer{
     display: block;
 }
 .main-content button{
-    border: 1px solid #bb2e9875;
+    border: 1px solid #e192e7;
     padding: 20px;
-    background-color: #a0077efd;
+    background-color: #e192e7;
     border-radius: 5%;
     width: 200px;
 }
 .main-content{
     background-image: url(../img/within-3113211_960_720.jpg);
-    height: 720px;
-    margin: 5px;
+    height: 600px;
+    /*width: 500%;*/
+    margin: 50px;
     text-align: center;
+    background-repeat: no-repeat;
 }
 .main-content button a{
     text-decoration: none;
